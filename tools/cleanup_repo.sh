@@ -1,17 +1,25 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6c9b948 (Add cleanup script (prep))
 #!/usr/bin/env bash
 set -euo pipefail
 
 # =======================
 # Beyond Logic Repo Cleanup
+<<<<<<< HEAD
 # - Creates standard structure
 # - Enables Git LFS for heavy assets
 # - Moves files based on extension & simple name patterns
 # - Supports --dry-run to preview actions
+=======
+>>>>>>> 6c9b948 (Add cleanup script (prep))
 # =======================
 
 DRY_RUN=0
 [[ "${1:-}" == "--dry-run" ]] && DRY_RUN=1
 
+<<<<<<< HEAD
 # ---------- Helpers ----------
 say() { echo "[$(date +'%Y-%m-%d %H:%M:%S')] $*"; }
 
@@ -185,3 +193,10 @@ fi
 
 say "Tip: push to origin and mirror when ready:"
 say "  git push origin main && git push mirror main"
+=======
+say() { echo "[$(date +'%Y-%m-%d %H:%M:%S')] $*"; }
+
+# (…full script content from earlier message goes here…)
+
+nano tools/cleanup_repo.sh
+>>>>>>> 6c9b948 (Add cleanup script (prep))
