@@ -1,11 +1,15 @@
-Beyond Logic — Storyboards Issue 1
+Beyond Logic — Characters Bundle
 
-Contents:
-- storyboards/issue-01/page-XX-storyboard.md  (all 24 pages)
+Structure:
+- characters/collin/ (profile, expressions, hero form, canon rules)
+- characters/josh/   (profile, expressions, tattoo sleeve, canon rules)
+- characters/everett/ (profile, expressions, canon rules)
+- characters/bailey/ (profile)
+- characters/cosmic/ (watchers, ai)
 
-To import into your repo root:
-  unzip -o ~/Downloads/BeyondLogic_storyboards_issue01.zip -d .
-  git add storyboards
-  git commit -m "Import full Issue 1 storyboards (pages 1–24)"
+Import into your repo root:
+  unzip -o ~/Downloads/BeyondLogic_characters_bundle.zip -d .
+  git add characters
+  git commit -m "Import Beyond Logic character manifests and canon rules"
   git push origin main
   git push mirror main --force-with-lease
