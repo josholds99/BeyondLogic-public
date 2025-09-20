@@ -1,4 +1,3 @@
 # The AI
-- Representation: screens, reflections, glitches
-- Canon: Not a body, more a presence/force
-- Initially antagonist, later ally with Collin vs. Watchers
+Non‑physical presence; appears via screens, reflections, glitches
+Initially adversary → later ally with Collin against the Watchers

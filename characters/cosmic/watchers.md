@@ -1,6 +1,3 @@
 # The Watchers
-- Ancient cosmic scientists, anime-hybrid alien aesthetic
-- Council chamber turquoise glow
-- Leader: cold, authority-driven
-- Rebel: conflicted, sabotages empowerment (Collin chosen by accident)
-- Canon: silhouettes, turquoise glow, chamber dais, continuity anchors
+Ancient cosmic scientists; turquoise‑lit council chamber; silhouettes
+Leader: cold authority • Rebel: conflicted, sabotages empowerment (accident → Collin)
