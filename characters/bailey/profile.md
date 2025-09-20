@@ -1,2 +1,4 @@
 # Bailey Young — Profile
-Warm, stabilizing mother; emotional glue of the family (design pending)
+- Role: Warm, stabilizing mother
+- Tone: Emotional glue of family
+- Design: Profile complete; visuals still pending

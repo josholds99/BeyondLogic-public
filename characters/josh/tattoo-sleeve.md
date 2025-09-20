@@ -1,2 +1,3 @@
-# Josh — Tattoo Sleeve
-Always on right arm; must be visible in turnarounds (mirror when needed for clarity)
+# Josh Young — Tattoo Sleeve
+- Always on **right arm**
+- Must be visible in all turnarounds

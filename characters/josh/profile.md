@@ -1,4 +1,7 @@
 # Josh Young — Profile
-Age mid‑40s • 173 cm • CrossFit "dad‑bulk"
-Hair: dark brown with grey streaks at temples • Eyes blue • Beard full, groomed
-Outfit: white dress shirt (sleeves rolled), navy pants, belt, brown shoes
+- Age: Mid-40s
+- Build: 5'8" (173 cm), muscular "dad-bulk," CrossFit physique
+- Hair: Short dark brown with **grey streaks at temples**
+- Eyes: Blue
+- Beard: Full, groomed
+- Clothing: Dress shirt (sleeves rolled), navy pants, belt, brown shoes

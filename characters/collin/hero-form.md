@@ -1,2 +1,5 @@
-# Collin — Hero Form
-Symbolic age‑up; tougher build; bleach‑blond textured top; emblem necklace glows
+# Collin Young — Hero Form
+- Transformation: Symbolic age-up to early 20s
+- Hair: Bleach-blond textured top
+- Build: Muscular, marketable superhero physique
+- Emblem: Glowing turquoise necklace, continuity anchor

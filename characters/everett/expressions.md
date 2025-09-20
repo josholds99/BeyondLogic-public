@@ -1,2 +1,3 @@
-# Everett — Expressions
-Playful, teasing, wide‑eyed innocence, occasional concern
+# Everett Young — Expressions
+- Expression sheet finalized
+- Expressions: playful, teasing, wide-eyed innocence, occasional concern

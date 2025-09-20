@@ -1,4 +1,4 @@
-# Collin — Canon Rules
-Height 175 cm (always > Josh by ~2 cm)
-Necklace/emblem is a continuity anchor in all outfits
-Modern teen voice in dialogue
+# Collin Young — Canon Rules
+- Height locked at 175 cm; always slightly taller than Josh (173 cm)
+- Modern teen lingo in dialogue ("Bet… keep laughing")
+- Emblem necklace is continuity anchor across transformation
