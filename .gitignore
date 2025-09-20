@@ -1,0 +1,30 @@
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+node_modules/
+venv/
+__pycache__/
+dist/
+build/
+
+# art / exports / caches
+*.psb
+*.tmp
+*.bak
+*.cache
+*.clipc
+*.kra~
+*.xcf~
+
+# zip archives and temp
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# OS junk
+Icon?
+._*
