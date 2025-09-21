@@ -5,11 +5,17 @@ on:
   push:
     branches: [ main, staging ]
 
+permissions:
+  contents: write  # allow this workflow to commit/push
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Generate indexes
         run: |
@@ -24,9 +30,8 @@ jobs:
                   return
               lines = [f"# {title}\n"]
               if is_pages:
-                  # expect subfolders like issue-01 with page-XX.md
                   for issue in sorted(d for d in os.listdir(root)
-                                      if os.path.isdir(os.path.join(root, d))
+                                      if os.path.isdir(os.path.join(root,d))
                                       and d.lower().startswith('issue-')):
                       lines.append(f"\n## {issue.replace('-', ' ').title()}")
                       ip = os.path.join(root, issue)
@@ -41,7 +46,8 @@ jobs:
                           lines.append(f"- {pretty} — {raw(branch, rel)}")
               else:
                   files = [fn for fn in os.listdir(root)
-                           if fn.lower().endswith(('.md','.json')) and not fn.startswith('_index')]
+                           if fn.lower().endswith(('.md','.json'))
+                           and not fn.startswith('_index')]
                   for fn in sorted(files, key=str.lower):
                       rel = f"{root}/{fn}"
                       lines.append(f"- {fn} — {raw(branch, rel)}")
@@ -57,10 +63,17 @@ jobs:
 
       - name: Commit indexes
         run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # stage only if present, then stage everything (tolerant)
+          git add scripts/_index.md 2>/dev/null || true
+          git add storyboards/_index.md 2>/dev/null || true
+          git add characters/_index.md 2>/dev/null || true
+          git add canon_refs/_index.md 2>/dev/null || true
+          git add -A
+
           if [ -n "$(git status --porcelain)" ]; then
-            git config user.name "repo-bot"
-            git config user.email "repo-bot@users.noreply.github.com"
-            git add scripts/_index.md storyboards/_index.md characters/_index.md canon_refs/_index.md
             git commit -m "chore: auto-update indexes"
             git push
           else
