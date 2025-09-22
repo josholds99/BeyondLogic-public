@@ -1,0 +1,81 @@
+name: Build Content Indexes
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main, staging ]
+
+permissions:
+  contents: write  # allow this workflow to commit/push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Generate indexes
+        run: |
+          python3 - <<'PY'
+          import os, re
+          def raw(branch, rel):
+              return f'https://raw.githubusercontent.com/josholds99/BeyondLogic-public/{branch}/{rel}'
+          branch = os.environ.get('GITHUB_REF_NAME', 'main')
+
+          def write_index(root, title, is_pages=False):
+              if not os.path.isdir(root):
+                  return
+              lines = [f"# {title}\n"]
+              if is_pages:
+                  for issue in sorted(d for d in os.listdir(root)
+                                      if os.path.isdir(os.path.join(root,d))
+                                      and d.lower().startswith('issue-')):
+                      lines.append(f"\n## {issue.replace('-', ' ').title()}")
+                      ip = os.path.join(root, issue)
+                      pages = []
+                      for fn in os.listdir(ip):
+                          if fn.lower().startswith('page-') and fn.lower().endswith('.md'):
+                              m = re.search(r'(\d+)', fn); n = int(m.group(1)) if m else 9999
+                              pages.append((n, fn))
+                      for _, fn in sorted(pages):
+                          rel = f"{root}/{issue}/{fn}"
+                          pretty = fn.replace('.md','').replace('-',' ').title()
+                          lines.append(f"- {pretty} — {raw(branch, rel)}")
+              else:
+                  files = [fn for fn in os.listdir(root)
+                           if fn.lower().endswith(('.md','.json'))
+                           and not fn.startswith('_index')]
+                  for fn in sorted(files, key=str.lower):
+                      rel = f"{root}/{fn}"
+                      lines.append(f"- {fn} — {raw(branch, rel)}")
+
+              with open(os.path.join(root, "_index.md"), "w", encoding="utf-8") as f:
+                  f.write("\n".join(lines) + "\n")
+
+          write_index("scripts", "Scripts Index", True)
+          write_index("storyboards", "Storyboards Index", True)
+          write_index("characters", "Characters Index", False)
+          write_index("canon_refs", "Canon References Index", False)
+          PY
+
+      - name: Commit indexes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # stage only if present, then stage everything (tolerant)
+          git add scripts/_index.md 2>/dev/null || true
+          git add storyboards/_index.md 2>/dev/null || true
+          git add characters/_index.md 2>/dev/null || true
+          git add canon_refs/_index.md 2>/dev/null || true
+          git add -A
+
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "chore: auto-update indexes"
+            git push
+          else
+            echo "No index changes."
+          fi
