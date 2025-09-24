@@ -24,8 +24,10 @@
 - Gear bag (black duffel) slung casually over shoulder
 
 ### Turnaround (Reference Sheet)
-**Front View (Post-Practice, Locked)**  
-![Collin Front View](file_00000000b6d8622f80375fd2a2810220)
+**Front View (Post-Practice, Locked)** 
+[
+](https://sdmntprnorthcentralus.oaiusercontent.com/files/00000000-b6d8-622f-8037-5fd2a2810220/raw?se=2025-09-24T02%3A00%3A23Z&sp=r&sv=2024-08-04&sr=b&scid=037ca880-56b5-5540-acaa-e204b1ad8fc2&skoid=f71d6506-3cac-498e-b62a-67f9228033a9&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-09-23T21%3A13%3A53Z&ske=2025-09-24T21%3A13%3A53Z&sks=b&skv=2024-08-04&sig=IzsBhxR92XiHBjXjKdBEqj74O9FirbFyxpKsqR9lz28%3D)<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/df887377-d22a-4db9-ac5c-4e6e24c7c279" />
+
 
 **Side View (Post-Practice, Locked)**  
 ![Collin Side View](file_0000000097a8622f98597ef4a663dd10)
