@@ -1,0 +1,153 @@
+name: Repo Manifests (Auto)
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 7 * * *" # daily keep-warm / self-heal
+
+permissions:
+  contents: write
+
+jobs:
+  build-manifests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate manifests for entire repo
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          REF_SHA=$(git rev-parse HEAD)
+          REPO="${GITHUB_REPOSITORY}"
+          RAW_SHA="https://raw.githubusercontent.com/${REPO}/${REF_SHA}"
+          RAW_MAIN="https://raw.githubusercontent.com/${REPO}/main"
+
+          # Optional ignore patterns
+          IGNORE_FILE=".manifestignore"
+          touch "$IGNORE_FILE"
+
+          # Always ignore these:
+          {
+            echo ".git/"
+            echo ".github/"
+            echo "**/MANIFEST.json"
+            echo "**/MANIFEST.md"
+            echo "REPO-INDEX.md"
+          } >> "$IGNORE_FILE"
+
+          # Make a temp file list of tracked files, filtered by ignore patterns
+          git ls-files > /tmp/_all_tracked_files.txt
+
+          # Convert .manifestignore to a regex and filter
+          # Fallback: if ripgrep isn't present, use grep -vF line-by-line
+          if command -v rg >/dev/null 2>&1; then
+            # not typically available; leave path for completeness
+            :
+          fi
+
+          # Basic ignore filter (literal lines)
+          cp /tmp/_all_tracked_files.txt /tmp/_files_filtered.txt
+          while IFS= read -r pat; do
+            [ -z "$pat" ] && continue
+            # convert simple glob to grep -E
+            rex=$(printf '%s\n' "$pat" | sed -e 's/[].[^$\\*|]/\\&/g' -e 's/\*/.*/g' -e 's/?/./g')
+            grep -Ev "^${rex}$" /tmp/_files_filtered.txt > /tmp/_files_filtered_.txt || true
+            mv /tmp/_files_filtered_.txt /tmp/_files_filtered.txt
+          done < "$IGNORE_FILE"
+
+          # Collect unique directories that contain files
+          awk -F/ '{
+            if (NF==1) print ".";
+            else {
+              d=$1;
+              for(i=2;i<NF;i++){ d=d"/"$i }
+              print d
+            }
+          }' /tmp/_files_filtered.txt | sort -u > /tmp/_dirs.txt
+
+          # Function to write a manifest for a directory
+          write_manifest () {
+            local dir="$1"
+
+            # Files in this dir only (not subdirs)
+            awk -v d="$dir" '
+              function dirname(p,  n){n=split(p,a,"/"); if(n==1)return "."; r=a[1]; for(i=2;i<n;i++)r=r"/"a[i]; return r}
+              dirname($0)==d { print $0 }
+            ' /tmp/_files_filtered.txt > /tmp/_files_in_dir.txt
+
+            # Skip empty dirs
+            if [ ! -s /tmp/_files_in_dir.txt ]; then
+              return 0
+            fi
+
+            mkdir -p "$dir"
+
+            # JSON
+            {
+              echo '{'
+              echo '  "ref_sha": "'"$REF_SHA"'",'
+              echo '  "folder": "'"$dir"'",'
+              echo '  "files": ['
+              c=0
+              n=$(wc -l < /tmp/_files_in_dir.txt | tr -d ' ')
+              while IFS= read -r f; do
+                c=$((c+1))
+                printf '    { "path": "%s", "raw_pinned": "%s/%s", "raw_latest": "%s/%s" }' "$f" "$RAW_SHA" "$f" "$RAW_MAIN" "$f"
+                if [ "$c" -lt "$n" ]; then echo ','; else echo; fi
+              done < /tmp/_files_in_dir.txt
+              echo '  ]'
+              echo '}'
+            } > "$dir/MANIFEST.json"
+
+            # Markdown
+            {
+              echo "# Manifest for \`$dir\`"
+              echo
+              echo "- ref_sha: \`$REF_SHA\`"
+              echo
+              echo "## Files"
+              while IFS= read -r f; do
+                echo "- [$f]($RAW_SHA/$f)  _(pinned)_  ·  [latest]($RAW_MAIN/$f)"
+              done < /tmp/_files_in_dir.txt
+            } > "$dir/MANIFEST.md"
+          }
+
+          # Write all per-directory manifests
+          while IFS= read -r D; do
+            write_manifest "$D"
+          done < /tmp/_dirs.txt
+
+          # Top-level index linking to all directory manifests
+          {
+            echo "# Repository Index"
+            echo
+            echo "- ref_sha: \`$REF_SHA\`"
+            echo
+            echo "## Directories"
+            while IFS= read -r D; do
+              if [ -f "$D/MANIFEST.md" ]; then
+                # Normalize ./ to repo root
+                LINK_PATH="$D"
+                [ "$D" = "." ] && LINK_PATH="."
+                echo "- \`$LINK_PATH\` → [$LINK_PATH/MANIFEST.md]($RAW_MAIN/$LINK_PATH/MANIFEST.md)"
+              fi
+            done < /tmp/_dirs.txt
+          } > REPO-INDEX.md
+
+          # Commit if changed
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if ! git diff --quiet; then
+            git add -A
+            git commit -m "[skip ci] chore: auto-update manifests across repo"
+            git push
+          fi
