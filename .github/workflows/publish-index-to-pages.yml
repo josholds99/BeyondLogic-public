@@ -1,0 +1,42 @@
+name: Publish REPO-INDEX to Pages
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Ensure REPO-INDEX exists
+        run: |
+          if [ ! -f REPO-INDEX.md ]; then
+            echo "# REPO-INDEX" > REPO-INDEX.md
+          fi
+
+      - name: Create gh-pages branch with REPO-INDEX
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # create a temporary orphan branch containing just REPO-INDEX.md (so Pages serves only what we want)
+          git checkout --orphan gh-pages
+          git rm -rf . >/dev/null 2>&1 || true
+          mkdir -p .
+          git add REPO-INDEX.md
+          git commit -m "[skip ci] publish REPO-INDEX to gh-pages"
+          git push -f origin gh-pages
+
+      - name: Ensure GitHub Pages is configured
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          event-type: ensure-pages
