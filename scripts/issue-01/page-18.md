@@ -1,36 +1,33 @@
 # Beyond Logic – Issue 1  
-## Page 17 (5 Panels, Revised Layout)
+## Page 18 (5 Panels, Cinematic Layout)
 
 ### Proposed Panel Layout  
-- **Top Row (1 Panel):**  
-  - **Panel 1 (Wide, Yard)** → Snickers halts mid-step on the front lawn, staring up. Silent.  
-- **Middle Row (2 Panels):**  
-  - **Panel 2 (Close, Collin)** → frown, following Snickers’ gaze.  
-  - **Panel 3 (Wide, Neighborhood)** → quiet street, faint turquoise shimmer outlining a cloaked ship above.  
-- **Bottom Row (2 Panels):**  
-  - **Panel 4 (Insert, Collin Face)** → lit by sky glow, doubt creeping. Silent.  
-  - **Panel 5 (Mid, Retreat)** → Collin nudges Snickers back inside, convincing himself it’s nothing.  
+- **Panel 1 (Tall Vertical, Left Side):** Collin locking the front door, Snickers at his feet. Silent.  
+- **Panel 2 (Wide, Top Right):** Collin dropping into bed, Snickers hopping beside him.  
+- **Panel 3 (Small Insert, Overlapping Panel 2):** Snickers circling down, Collin’s hand on him.  
+- **Panel 4 (Horizontal Strip, Beneath 2 & 3):** Collin staring at the ceiling, uneasy. Silent.  
+- **Panel 5 (Full-Width Anchor at Bottom):** Exterior pull-back of the house tiny under the vast sky, turquoise shimmer above.  
 
 ---
 
 ### Script (5 Panels with Art Direction)
 
-**Panel 1 (Wide, Yard)**  
-- **Art direction:** Wide shot of Snickers frozen mid-step on the lawn, head tilted up at the night sky, ears pricked. The house glows faintly behind them.  
+**Panel 1 (Tall Vertical, Left Side)**  
+- **Art direction:** Vertical panel, narrow and tall. Collin closes and locks the front door, Snickers sitting close by, ears still perked. The interior behind them is dim.  
 - *No dialogue.*  
 
-**Panel 2 (Close, Collin)**  
-- **Art direction:** Tight close-up of Collin’s face, eyes narrowing as he follows Snickers’ gaze upward.  
-- **Collin (thought):** “…What now…”  
-
-**Panel 3 (Wide, Neighborhood)**  
-- **Art direction:** Wide shot of the quiet suburban street under the night sky. Above, faint and massive, a turquoise shimmer outlines the form of a cloaked ship. It’s barely visible, more suggested than shown.  
+**Panel 2 (Wide, Top Right)**  
+- **Art direction:** Wide horizontal panel on the top right of the page. Collin drops heavily into bed, blanket pulled loosely across him. Snickers hops up onto the mattress, circling near the foot.  
 - *No dialogue.*  
 
-**Panel 4 (Insert, Collin Face)**  
-- **Art direction:** Small inset panel. Collin’s face lit faintly by turquoise light, unease and doubt written across it.  
+**Panel 3 (Small Insert, Overlapping Panel 2)**  
+- **Art direction:** Small overlapping insert panel. Snickers curls into place, Collin’s hand resting briefly on his back. A beat of warmth.  
 - *No dialogue.*  
 
-**Panel 5 (Mid, Retreat)**  
-- **Art direction:** Medium shot of Collin nudging Snickers gently with his foot toward the open doorway. Snickers hesitates before padding inside. Collin lingers, glancing upward one last time.  
-- **Collin (thought):** “…Just clouds. I’m seeing things.”  
+**Panel 4 (Horizontal Strip, Beneath 2 & 3)**  
+- **Art direction:** Thin horizontal panel stretching beneath Panels 2 and 3. Collin lies on his back, eyes open, staring uneasily at the ceiling. His face is tense, exhaustion mixing with unease.  
+- *No dialogue.*  
+
+**Panel 5 (Full-Width Anchor at Bottom)**  
+- **Art direction:** Full-width cinematic pull-back. The house looks small under the vast Texas night sky. Above, faint but unmistakable, a turquoise shimmer lingers — the Watchers watching.  
+- *No dialogue.*  
