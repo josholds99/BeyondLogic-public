@@ -1,33 +1,33 @@
 # Beyond Logic – Issue 1  
-## Page 20 (5 Panels)
+## Page 19 (5 Panels)
 
-### Proposed Panel Layout (Z-flow, asymmetrical)
-- **Panel 1 (Top strip, full width)** – Narrow horizontal strip across the very top for the **close Earth projection** beat.
-- **Panel 2 (Large wide, center-left)** – Dominant panel under Panel 1 (≈60% page width). **Projection expands** here.
-- **Panel 3 (Tall vertical, right side)** – Runs alongside Panel 2 from mid-page down. **Close on Watcher Leader** (eyes intensify).
-- **Panel 4 (Small insert, over Panel 2 lower-left)** – Overlapping inset for the **hologram flicker**. Silent.
-- **Panel 5 (Bottom full-width anchor)** – **Full wide** of the entire council chamber, silent—lands the page.
+### Proposed Panel Layout  
+- **Panel 1 (Wide, POV from Above):** From the cloaked ship, Earth below, Collin’s bedroom window faintly rimmed in turquoise. Silent.  
+- **Panel 2 (Mid, Ship Corridor):** Sterile corridor of the Watcher ship, turquoise seams glowing faintly. Silent.  
+- **Panel 3 (Wide, Council Approach):** Camera entering a vast chamber, Earth projection suspended at the center.  
+- **Panel 4 (Close, Leader Silhouette):** Single Watcher form looms — off-panel line: *“…It spreads.”*  
+- **Panel 5 (Full Wide, Chamber Scale):** Full scope of the chamber. Watcher silhouettes encircling the projection, rim-lit by turquoise glow. Silent.  
 
 ---
 
 ### Script (5 Panels with Art Direction)
 
-**Panel 1 (Close, Earth Projection – top strip)**  
-- **Art direction:** Tight close across the rotating Earth hologram. Turquoise networks pulse like veins over continents.  
-- **Watcher Leader (dialogue):** “…Unchecked, it will erase them.”
+**Panel 1 (Wide, POV from Above)**  
+- **Art direction:** Wide shot from high above, POV from the cloaked Watcher ship. The suburban neighborhood is visible far below. Collin’s window glows faintly turquoise against the dark.  
+- *No dialogue.*  
 
-**Panel 2 (Mid, Projection Expands – large wide center-left)**  
-- **Art direction:** The Earth ripple blooms outward, forming a ghostly, symbolic hologram of a “leader” figure—power abstracted rather than literal.  
-- **Watcher #2 (dialogue):** “Then we choose a leader… power… authority.”
+**Panel 2 (Mid, Ship Corridor)**  
+- **Art direction:** Medium shot inside the Watcher ship. A long sterile corridor with seamless walls, glowing turquoise veins running like circuitry. Silent, otherworldly.  
+- *No dialogue.*  
 
-**Panel 3 (Close, Leader Silhouette – tall vertical right)**  
-- **Art direction:** Tall, rim-lit silhouette of the Watcher Leader; eyes intensify with turquoise edge-light, unreadable and cold.  
-- **Watcher Leader (dialogue):** “…Weakness cannot be tolerated.”
+**Panel 3 (Wide, Council Approach)**  
+- **Art direction:** Wide panel as the camera enters a vast circular chamber. At its center floats a massive projection of Earth, slowly rotating, rim-lit in turquoise.  
+- *No dialogue.*  
 
-**Panel 4 (Insert, Hologram Flicker – over Panel 2)**  
-- **Art direction:** Small overlapping inset: the hologram jitters, glitches, and warps erratically; edges tear like data.  
-- *No dialogue.*
+**Panel 4 (Close, Leader Silhouette)**  
+- **Art direction:** Tight close-up of a single Watcher silhouette, towering and unreadable, lit only in rim-light turquoise.  
+- **Watcher Leader (off-panel):** “…It spreads.”  
 
-**Panel 5 (Full Wide, Council Silent – bottom anchor)**  
-- **Art direction:** Massive pull to show chamber scale: concentric ranks of Watcher silhouettes encircle the unstable projection; all rim-lit in turquoise, utterly silent.  
-- *No dialogue.*
+**Panel 5 (Full Wide, Chamber Scale)**  
+- **Art direction:** Massive wide shot. Dozens of Watcher silhouettes stand around the chamber, Earth’s projection glowing at the center. Their featureless forms are rim-lit, emphasizing their anonymity and power.  
+- *No dialogue.*  
