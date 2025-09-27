@@ -1,16 +1,16 @@
 # Beyond Logic – Issue 1  
-## Page 6 (6 Panels, Generator-Safe)
+## Page 6 (6 Panels, Finalized)
 
 ---
 
 ### Panel 1 (Wide, Dinner Table – Simplified)  
 **Prompt (Generator-Ready):**  
 Anime-hybrid cel-shaded, bold outlines, flat vibrant colors.  
-Wide shot of farmhouse dining table with **exactly 4 matching slat-back chairs**, chandelier glow above. Simple warm background, cream/beige wall and faint hint of patio doors blurred.  
+Wide shot of farmhouse dining table with **exactly 4 evenly spaced farmhouse slat-back chairs**, chandelier glow above. Simple warm background, cream/beige wall and faint hint of patio doors blurred.  
 
 Bailey Young (38, shoulder-length light brown hair with highlights, hazel eyes, **freckles under eyes must be visible**, green fitted top, blue jeans, flats, small accessory). Setting a bowl on the table, warm demeanor.  
 Everett Young (10, lean kid frame, faux hawk hairstyle, blue eyes, black t-shirt, tan shorts, white sneakers, **neon green dinosaur socks clearly visible**). Seated, eating with playful posture.  
-Collin Young (15, 5’9”, lean athletic build, broad shoulders, dark brown buzz cut, green eyes, **silver cross necklace clearly visible**, purple athletic shirt, black shorts, white sneakers). Sitting slightly apart, **shoulders hunched, leaning away from table**, cooler shadow tones emphasize separation.  
+Collin Young (15, 5’9”, lean athletic build, broad shoulders, dark brown buzz cut, green eyes, **silver cross necklace clearly visible**, purple athletic shirt, black shorts, white sneakers). Positioned slightly apart on the **right side of the table**, **shoulders hunched, leaning away**, cooler shadow tones emphasize separation.  
 
 Lighting: Bailey and Everett warmly lit under chandelier; Collin cooler toned in shadow.  
 No dialogue, no text.  
@@ -34,12 +34,12 @@ No text in image (space preserved for dialogue balloons).
 
 ---
 
-### Panel 3 (Close, Everett Sock Emphasis)  
+### Panel 3 (Close, Everett Sock Emphasis – Updated)  
 **Prompt (Generator-Ready):**  
 Anime-hybrid cel-shaded, bold outlines, flat vibrant colors.  
-Close-up, playful angle on Everett Young (10, lean kid frame, faux hawk hairstyle, blue eyes). Big cheeky grin, mischievous sparkle in eyes.  
+Playful close-up composition of Everett Young (10, lean kid frame, faux hawk hairstyle, blue eyes). **Cheeky grin with mischievous sparkle in eyes.**  
 
-Foreground emphasis: **Everett lifts one foot close to camera, sock dominates foreground. Neon green dinosaur socks must be clearly visible.** White sneaker partly slipped off to highlight sock.  
+Foreground emphasis: **Everett lifts one foot close to camera, sock dominates foreground while his face remains clearly in frame behind it. Neon green dinosaur socks must be clearly visible.** White sneaker partly slipped off to highlight sock.  
 Clothing: black t-shirt, tan shorts.  
 
 Background blurred warm glow of farmhouse dining room, minimal detail.  
@@ -50,13 +50,13 @@ No text, just preserved space.
 
 ---
 
-### Panel 4 (Mid, Collin Alone Off-Center)  
+### Panel 4 (Mid, Collin Alone Off-Center – Updated)  
 **Prompt (Generator-Ready):**  
 Anime-hybrid cel-shaded, bold outlines, flat vibrant colors.  
 Medium shot of Collin Young (15, 5’9”, lean athletic build, buzz cut, green eyes, **silver cross necklace visible**, purple athletic shirt, black shorts, white sneakers).  
-Seated at farmhouse dining table, positioned slightly off-center right. **Shoulders hunched, posture withdrawn, poking at food with fork, faint smirk but eyes distant.** Subtle cooler shadow tones on him.  
+Positioned **off-center right** at farmhouse dining table. **Shoulders hunched, posture withdrawn, poking at food with fork, faint smirk but eyes distant.** Subtle cooler shadow tones on him.  
 
-Left side of frame blurred: Bailey and Everett laughing warmly together, softly glowing under chandelier light. Warm tones surround them, but they are out of focus.  
+**Left side of frame blurred:** Bailey and Everett laughing warmly together, softly glowing under chandelier light, clearly out of focus.  
 
 Mood: Collin visually separated, cooler shadows emphasize isolation, warmth belongs to the blurred family opposite him.  
 No text, no dialogue.  
@@ -79,16 +79,17 @@ No text in image, only preserved space for balloons.
 
 ---
 
-### Panel 6 (Wide, Family Together but Apart – Simplified)  
+### Panel 6 (Wide, Family Together but Apart – Simplified & Updated)  
 **Prompt (Generator-Ready):**  
 Anime-hybrid cel-shaded, bold outlines, flat vibrant colors.  
-Wide shot of farmhouse dining table under chandelier glow with **exactly 4 matching slat-back chairs**. Background blurred, environment details minimal — focus on characters and table.  
+Wide shot of farmhouse dining table under chandelier glow with **exactly 4 matching slat-back chairs**. Background blurred, environment minimal — focus on characters and table.  
 
 Bailey Young (38, shoulder-length light brown hair with highlights, hazel eyes, **freckles under eyes must be visible**, green fitted top, blue jeans, flats, small accessory). Seated close to Everett, warmly lit.  
 Everett Young (10, faux hawk, blue eyes, black t-shirt, tan shorts, white sneakers, **neon green dinosaur socks clearly visible**). Beside Bailey, playful and bright in warm glow.  
-Collin Young (15, 5’9”, lean athletic build, buzz cut, green eyes, **silver cross necklace visible**, purple athletic shirt, black shorts, white sneakers). Seated between them but slightly withdrawn, **shoulders hunched, posture closed off**, cooler shadows emphasize separation.  
+Collin Young (15, 5’9”, lean athletic build, buzz cut, green eyes, **silver cross necklace visible**, purple athletic shirt, black shorts, white sneakers). Seated between them but slightly withdrawn, **shoulders hunched in cooler shadow**, posture closed off.  
 
-Mood: Bailey and Everett together in warmth, Collin present but emotionally apart.  
+Lighting: Bailey and Everett glowing warm on one side, Collin cooler toned and isolated at center.  
+Mood: Family physically together but emotionally apart.  
 No text, no dialogue.  
 
 ---
