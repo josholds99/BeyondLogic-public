@@ -3,17 +3,16 @@
 
 ---
 
-### Panel 1 (Wide, Dining Table)  
+### Panel 1 (Wide, Dinner Table – Simplified)  
 **Prompt (Generator-Ready):**  
 Anime-hybrid cel-shaded, bold outlines, flat vibrant colors.  
-Wide diagonal shot, south-to-north view of farmhouse dining room.  
-Wood farmhouse table with 4 matching slat-back chairs, chandelier centered above. North wall: glass patio doors. East wall: wide archway to kitchen. South wall: arch to living room. Cream/beige walls, medium warm wood floor. Warm farmhouse lighting.  
+Wide shot of farmhouse dining table with 4 matching chairs, chandelier glow above. Simple warm background, cream/beige wall and faint hint of patio doors blurred.  
 
-Bailey Young (38, shoulder-length light brown hair with highlights, hazel eyes, freckles under eyes, green fitted top, blue jeans, flats, small accessory). Placing a bowl on the table, warm demeanor.  
-Everett Young (10, lean build, faux hawk, blue eyes, black t-shirt, tan shorts, white sneakers, neon green dinosaur socks visible). Seated, already eating, playful energy.  
-Collin Young (15, 5’9”, lean athletic build, broad shoulders, dark brown buzz cut, green eyes, silver cross necklace, purple athletic shirt, black shorts, white sneakers). Seated slightly apart, posture leaning away, cooler shadow tones on him.  
+Bailey Young (38, shoulder-length light brown hair with highlights, hazel eyes, freckles under eyes, green fitted top, blue jeans, flats, small accessory). Setting a bowl on the table, warm demeanor.  
+Everett Young (10, faux hawk, blue eyes, black t-shirt, tan shorts, white sneakers, neon green dinosaur socks visible). Seated, eating, playful posture.  
+Collin Young (15, 5’9”, lean athletic build, buzz cut, green eyes, silver cross necklace, purple athletic shirt, black shorts, white sneakers). Sitting slightly apart, leaning away, cooler shadow tones emphasize separation.  
 
-Lighting: Bailey and Everett warmly lit, Collin in subtle cooler shadow to emphasize his distance.  
+Mood: Bailey and Everett warmly lit; Collin visually distanced by cooler tones.  
 No dialogue, no text.  
 
 ---
@@ -80,16 +79,16 @@ No text in image, only preserved space for balloons.
 
 ---
 
-### Panel 6 (Wide, Family Together But Apart)  
+### Panel 6 (Wide, Family Together but Apart – Simplified)  
 **Prompt (Generator-Ready):**  
 Anime-hybrid cel-shaded, bold outlines, flat vibrant colors.  
-Wide shot of farmhouse dining room, slight diagonal angle across the table. Warm chandelier glow above, cream/beige walls, medium warm wood floor.  
+Wide shot of farmhouse dining table under chandelier glow. Background blurred, environment details minimal — focus on characters and table.  
 
-Bailey Young (38, shoulder-length light brown hair with highlights, hazel eyes, freckles under eyes, green fitted top, blue jeans, flats, small accessory). Seated close to Everett, glowing in warm light.  
-Everett Young (10, lean build, faux hawk, blue eyes, black t-shirt, tan shorts, white sneakers, neon green dinosaur socks). Beside Bailey, still playful, warm glow surrounding him.  
-Collin Young (15, 5’9”, lean athletic build, dark brown buzz cut, green eyes, silver cross necklace, purple athletic shirt, black shorts, white sneakers). Positioned between them but visually apart — posture closed off, cooler shadow tones emphasize separation.  
+Bailey Young (38, shoulder-length light brown hair with highlights, hazel eyes, freckles under eyes, green fitted top, blue jeans, flats, small accessory). Seated close to Everett, warmly lit.  
+Everett Young (10, faux hawk, blue eyes, black t-shirt, tan shorts, white sneakers, neon green dinosaur socks visible). Beside Bailey, playful and bright in warm glow.  
+Collin Young (15, 5’9”, lean athletic build, buzz cut, green eyes, silver cross necklace, purple athletic shirt, black shorts, white sneakers). Seated between them but slightly withdrawn, posture closed off, cooler shadows emphasize separation.  
 
-Mood: Bailey and Everett warmly connected, Collin physically present but emotionally isolated.  
+Mood: Bailey and Everett together in warmth, Collin present but emotionally apart.  
 No text, no dialogue.  
 
 ---
