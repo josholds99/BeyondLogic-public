@@ -6,66 +6,78 @@
 ### **Panel 1 (Mid, Teacher – AI Grading Intro)**  
 **Prompt (Generator-Ready):**  
 Full anime cel-shaded style, sharp linework, layered shading, expressive anime features.  
-Medium shot of **generic teacher** (per School Master Canon: adult professional in button-up shirt). Teacher stands at the front of the classroom, posture uneasy, mouth slightly open as if mid-sentence.  
-Behind: **projector screen** glowing turquoise/white, projected text clearly visible: *“AI Grading Pilot Program.”*  
-Classroom desks in rows facing front.  
-**Lighting:** Room dim, harsh turquoise projector glow dominates scene, casting cold highlights on teacher and students.  
-**Mood:** Teacher overshadowed by AI glow.  
-Leave empty space for dialogue.  
+**Medium shot** of **generic teacher** (per School Canon [oai_citation:2‡School_Master_Canon_Anime.md](file-service://file-XnqTiJjVeViq4msHJhqoBs), button-up shirt). Teacher stands at front of classroom, posture uneasy, mouth slightly open mid-sentence.  
 
-**Dialogue Note:** Teacher says → *“Starting today, assignments will be graded by the new AI system.”*  
+- **Camera Placement:** Student perspective, facing the **front wall**.  
+- **Background:** Projector screen dominates with glowing turquoise/white text: *“AI Grading Pilot Program.”*  
+- **Lighting:** Harsh turquoise projector glow saturates teacher and students.  
+- **Mood:** Teacher overshadowed by AI glow.  
+Leave empty space for dialogue bubble.  
+
+**Dialogue Note:** Teacher: *“Starting today, assignments will be graded by the new AI system.”*  
 
 ---
 
-### **Panel 2 (Mid, Classmates Teasing Collin)**  
+### **Panel 2 (Mid, Classmates Leaning Across Aisle – Teasing)**  
 **Prompt (Generator-Ready):**  
 Full anime cel-shaded style, sharp linework, layered shading, expressive anime features.  
-Medium shot: two **generic classmates** in the foreground, leaning toward each other, smirking. Background students as filler.  
-**Midground/right:** **Collin Young** at his desk (15, lean athletic build, green eyes, dark brown buzz cut, silver cross necklace, grey T-shirt, blue jeans, white sneakers). His posture rigid, clearly the focus of mockery.  
-Classroom per canon, turquoise projector glow saturating.  
-Leave empty space for dialogue.  
+**Medium shot** of two **generic classmates** (16 yrs, per School Canon [oai_citation:3‡School_Master_Canon_Anime.md](file-service://file-XnqTiJjVeViq4msHJhqoBs)) seated across an aisle.  
 
-**Dialogue Note:** Classmate says → *“Bet AI’ll replace coaches too!”*  
+- **Camera Placement:** Eye-level from teacher’s POV, facing students.  
+- **Placement:** One student at left desk, one at right desk, leaning slightly across the aisle toward each other.  
+- **Posture:** Torsos facing front (toward projector), but heads turned inward so smirking expressions are visible.  
+- **Background:** Rows of desks behind them facing projector; turquoise glow across scene.  
+- **Mood:** Light, dismissive, mocking.  
+Leave empty space above/between them for dialogue bubble.  
+
+**Dialogue Note:** Student: *“Bet AI’ll replace coaches too!”*  
 
 ---
 
 ### **Panel 3 (Wide, Classroom – Collin Uneasy)**  
 **Prompt (Generator-Ready):**  
 Full anime cel-shaded style, sharp linework, layered shading, expressive anime features.  
-Wide shot of classroom. Harsh turquoise/white projector glow fills the room.  
-Foreground center: **Collin Young** sits rigid, angled slightly away from classmates.  
-**Expression:** uneasy/frustrated (per Collin expression canon). His fist tightens around a pencil.  
-Background: groups of students whispering, laughing. Teacher stands awkwardly, overshadowed by projection.  
-**Composition:** Collin visually isolated in frame, separated from peers.  
-Silent panel, no dialogue.  
+**Wide shot** of classroom with layered focus.  
 
-**Dialogue Note:** Silent panel — no text.  
+- **Camera Placement:** From **front corner of classroom**, slightly elevated (~15–20°), angled back toward rows of desks.  
+- **Foreground Center (Primary Focus):** **Collin Young** (15, lean athletic build, dark brown buzz cut, green anime eyes, silver cross necklace, grey T-shirt, blue jeans, white sneakers [oai_citation:4‡Collin_Master_Canon_Anime.md](file-service://file-MffQgEcc8jRN61ABFK1c1i)).  
+   - Posture: rigid, **¾ turned so uneasy/frustrated expression is visible**.  
+   - Fist clenched around pencil. Glow catching necklace.  
+- **Midground (Secondary Focus):** Groups of classmates whispering and laughing, torsos forward but heads turned slightly toward each other.  
+- **Background (Tertiary Focus):** Teacher small, awkward posture at projector. Screen text faint but legible: *“AI Grading Pilot Program.”*  
+- **Lighting:** Harsh turquoise/white glow dominates scene.  
+- **Mood:** Collin visually isolated from peers.  
+Silent panel — no dialogue.  
 
 ---
 
-### **Panel 4 (Mid, Teacher Close – Undermined)**  
+### **Panel 4 (Close, Teacher – Undermined)**  
 **Prompt (Generator-Ready):**  
 Full anime cel-shaded style, sharp linework, layered shading, expressive anime features.  
-Tight close-up of **teacher’s face** (placeholder canon).  
-**Expression:** brow furrowed, jaw clenched, posture small against turquoise/white projector glow. Mouth slightly open as if reluctantly speaking.  
-**Mood:** anger mixed with humiliation, teacher visually undermined by AI branding.  
-Leave empty space for dialogue.  
+**Tight close-up** on **generic teacher’s face** (per School Canon [oai_citation:5‡School_Master_Canon_Anime.md](file-service://file-XnqTiJjVeViq4msHJhqoBs)).  
 
-**Dialogue Note:** Teacher says → *“AI overruled my grade.”*  
+- **Camera Placement:** From student space, facing **front wall**.  
+- **Camera Angle:** Slight **high tilt downward** — teacher visually diminished.  
+- **Expression:** Brow furrowed, jaw clenched, mouth slightly open mid-sentence — uneasy, humiliated.  
+- **Background:** Harsh turquoise projector glow behind, edge of screen visible.  
+- **Mood:** Teacher undermined, authority stripped by AI branding.  
+Leave empty space for dialogue bubble.  
+
+**Dialogue Note:** Teacher: *“AI overruled my grade.”*  
 
 ---
 
 ### **Panel 5 (Wide, Hallway – Collin Alone)**  
 **Prompt (Generator-Ready):**  
 Full anime cel-shaded style, sharp linework, layered shading, expressive anime features.  
-Wide shot of **school hallway**.  
-Walls plastered with glowing AI propaganda posters: *“Efficiency,” “Accuracy,” “Future of Learning.”*  
-Groups of **generic students** walk together, laughing, comparing AI apps.  
-Foreground center: **Collin Young** (same outfit) walking alone, posture tense, expression isolated and thoughtful.  
-**Lighting:** Harsh turquoise glow from posters saturates hallway, overpowering natural light.  
-**Mood:** oppressive branding overwhelms scene, Collin framed alone.  
-Silent panel, no dialogue.  
+**Wide shot** of crowded school hallway per School Canon [oai_citation:6‡School_Master_Canon_Anime.md](file-service://file-XnqTiJjVeViq4msHJhqoBs).  
 
-**Dialogue Note:** Silent panel — no text.  
+- **Camera Placement:** Slightly above hallway eye-level, angled **down corridor** into depth.  
+- **Foreground Center (Primary Focus):** **Collin Young** (same school outfit [oai_citation:7‡Collin_Master_Canon_Anime.md](file-service://file-MffQgEcc8jRN61ABFK1c1i)). Walking slightly hunched, tense posture. Expression: isolated, thoughtful.  
+- **Midground/Background:** Groups of students in pairs, laughing, muted clothes with purple/black accents.  
+- **Walls:** Plastered with glowing AI propaganda posters: *“Efficiency,” “Accuracy,” “Future of Learning.”*  
+- **Lighting:** Harsh turquoise glow dominates, overpowering natural light.  
+- **Mood:** Collin framed alone, swallowed by AI branding.  
+Silent panel — no dialogue.  
 
 ---
